@@ -30,7 +30,7 @@ This Project has 4 Stages
 
 These instructions will get you a copy of the project up and running on your Local Environment using Cloud Infrastructure 
 ```
-git clone www.github.com/kashishshah881/ml-as-a-service-pipeline
+git clone www.github.com/Dhruv-Panchal/ml-as-a-service-pipeline
 ```
 
 ### Prerequisites
@@ -58,9 +58,9 @@ pip3 install -r requirements.txt
 - Request a [Metaflow Sandbox](https://www.metaflow.org/sandbox/) to run your pipeline on AWS Batch.
 ##### Step 2:
 - Once Everything is setup, Configure Metaflow's Sandbox. Run ``` metaflow configure sandbox ``` on CLI. Enter The API Keys from Step 1 <br>
-- Configure the input/output buckets on AWS S3 and Enter the bucket name in [Annotation Pipeline](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/Annotation%20Pipeline/index.py#L41-L42) , [ML Pipeline](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/ML%20Pipeline/index.py#L37-L39) , [Inference Pipeline](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L28-L29)
-and [Flask App](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/REST%20Flask%20App/app.py#L26)
-- Lastly, add the Azure Api Keys [Here](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/Annotation%20Pipeline/index.py#L21-L22)
+- Configure the input/output buckets on AWS S3 and Enter the bucket name in [Annotation Pipeline](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/Annotation%20Pipeline/index.py#L41-L42) , [ML Pipeline](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/ML%20Pipeline/index.py#L37-L39) , [Inference Pipeline](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L28-L29)
+and [Flask App](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/REST%20Flask%20App/app.py#L26)
+- Lastly, add the Azure Api Keys [Here](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/Annotation%20Pipeline/index.py#L21-L22)
 ##### Step 3:
 Run on CLI <br>
 - Change the permission of the files
@@ -81,9 +81,9 @@ Create a Kubernetes Cluster on Google Cloud Product and Deploy your Docker File 
 Now Your Flask App Is Up! and Accessible from Anywhere Across The World!
 
 ##### Step 5:
-Add the required Tickerfile bucket location in [Inference Pipeline](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L83) <br>
-Add Bucket Location [Inference Pipeline](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L28-L29) <br>
-Add the IP Address and Port Number Obtained from The GCP Kubernetes Cluster in [Inference Pipeline](https://github.com/kashishshah881/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L157)
+Add the required Tickerfile bucket location in [Inference Pipeline](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L83) <br>
+Add Bucket Location [Inference Pipeline](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/blob/master/Inference%20Pipeline/index.py#L28-L29) <br>
+Add the IP Address and Port Number Obtained from The GCP Kubernetes Cluster in [Inference Pipeline](https://github.com/Dhruv-Panchal/ml-as-a-service-pipeline/master/Inference%20Pipeline/index.py#L157)
 
 
 
@@ -99,9 +99,9 @@ Add the IP Address and Port Number Obtained from The GCP Kubernetes Cluster in [
 
 ## Authors
 
+* **Dhruv Panchal** - *Research and Development* - [Linkedin](https://www.linkedin.com/in/panchaldhruv/)
 * **Kashish Shah** - *Design, Architect and Deployment* - [Linkedin](https://linkedin.com/in/shah-kashish)
 * **Manogana Mantripragada** - *Machine Learning Engineer* - [Linkedin](https://www.linkedin.com/in/manogna-mantripragada/)
-* **Dhruv Panchal** - *Research* - [Linkedin](https://www.linkedin.com/in/panchaldhruv/)
 
 
 
